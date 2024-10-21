@@ -1,0 +1,103 @@
+
+========================================================================
+
+** ELF Header Information
+
+    File Name: project.axf
+
+    Machine class: ELFCLASS32 (32-bit)
+    Data encoding: ELFDATA2LSB (Little endian)
+    Header version: EV_CURRENT (Current version)
+    Operating System ABI: none
+    ABI Version: 0
+    File Type: ET_EXEC (Executable) (2)
+    Machine: EM_ARM (ARM)
+
+    Image Entry point: 0x08000199
+    Flags: EF_ARM_HASENTRY + EF_ARM_ABI_FLOAT_SOFT (0x05000202)
+
+    ARM ELF revision: 5 (ABI version 2)
+
+    Conforms to Soft float procedure-call standard
+
+    Built with
+    Component: Arm Compiler for Embedded 6.22 Tool: armasm [5ee90e00]
+    Component: Arm Compiler for Embedded 6.22 Tool: armlink [5ee90200]
+
+    Header size: 52 bytes (0x34)
+    Program header entry size: 32 bytes (0x20)
+    Section header entry size: 40 bytes (0x28)
+
+    Program header entries: 1
+    Section header entries: 14
+
+    Program header offset: 17484 (0x0000444c)
+    Section header offset: 17516 (0x0000446c)
+
+    Section header string table index: 13
+
+========================================================================
+
+** Program header #0 (PT_LOAD) [PF_X + PF_W + PF_R + PF_ARM_ENTRY]
+    Size : 2264 bytes (1140 bytes in file)
+    Virtual address: 0x08000000 (Alignment 8)
+
+
+========================================================================
+
+** Section #1 'ER_RO' (SHT_PROGBITS) [SHF_ALLOC + SHF_EXECINSTR]
+    Size   : 1140 bytes (alignment 4)
+    Address: 0x08000000
+
+
+** Section #2 'ER_ZI' (SHT_NOBITS) [SHF_ALLOC + SHF_WRITE]
+    Size   : 1120 bytes (alignment 8)
+    Address: 0x20000000
+
+
+** Section #3 '.debug_abbrev' (SHT_PROGBITS)
+    Size   : 551 bytes
+
+
+** Section #4 '.debug_frame' (SHT_PROGBITS)
+    Size   : 860 bytes
+
+
+** Section #5 '.debug_info' (SHT_PROGBITS)
+    Size   : 2279 bytes
+
+
+** Section #6 '.debug_line' (SHT_PROGBITS)
+    Size   : 1206 bytes
+
+
+** Section #7 '.debug_ranges' (SHT_PROGBITS)
+    Size   : 40 bytes
+
+
+** Section #8 '.debug_str' (SHT_PROGBITS)
+    Size   : 1187 bytes
+
+
+** Section #9 '.symtab' (SHT_SYMTAB)
+    Size   : 4160 bytes (alignment 4)
+    String table #10 '.strtab'
+    Last local symbol no. 132
+
+
+** Section #10 '.strtab' (SHT_STRTAB)
+    Size   : 4608 bytes
+
+
+** Section #11 '.note' (SHT_NOTE)
+    Size   : 24 bytes (alignment 4)
+
+
+** Section #12 '.comment' (SHT_PROGBITS)
+    Size   : 1236 bytes
+
+
+** Section #13 '.shstrtab' (SHT_STRTAB)
+    Size   : 136 bytes
+
+
